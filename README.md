@@ -1,3 +1,3 @@
 # Personal Portfolio
 
-These is my personal portfoli created using HTML, CSS, Bootstrap & JavaScript.
+These is my personal portfolio created using HTML, CSS, Bootstrap & JavaScript.
