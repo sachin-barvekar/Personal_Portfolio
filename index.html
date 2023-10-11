@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio Webpage Sachin Barvekar</title>
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.png">
+    <!-- font-awesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive-style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+    <!-- Navbar Section -->
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" class="img-fluid" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <i class="fas fa-stream navbar-toggler-icon"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav menu-navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item mt-3 mt-lg-0">
+                            <a class="main-btn" href="#contact">Hire me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Banner Section -->
+    <section id="home" class="banner_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center text-md-start">
+                    <h6>WELCOME TO MY WORLD</h6>
+                    <h1>Myself, Sachin Barvekar <br> <span>Web Developer.</span><br>Beed, Maharashtra.</h1>
+                    <div class="mt-4">
+                        <a class="main-btn" href="cv.pdf" target="_blank">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="about_wrapper">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <img src="images/img.jpg" class="img-fluid rounded-3" alt="About-us">
+                </div>
+                <div class="col-lg-7 ps-lg-5 text-center text-lg-start">
+                    <div class="my-3 mb-lg-0">
+                        <span class="subtitle">My About Details</span>
+                        <h2>About Me</h2>
+                        <p>Myself, Sachin Barvekar. I'm pursuing BE degree in PVPIT College, Pune. I am from Beed,
+                            Maharashtra. I have Ability to learn New Software & Technology quickly. Profficient in C++
+                            Programming
+                            Language. <br>
+                            Consistency is What, <br>
+                            Transforms an Average into Excellence.</p>
+                    </div>
+                    <div class="pt-4">
+                        <ul class="nav nav-pills justify-content-center justify-content-lg-between mb-3" id="pills-tab"
+                            role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-skill-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-skill" type="button" role="tab" aria-controls="pills-skill"
+                                    aria-selected="true">My Skills</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-certification-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-certification" type="button" role="tab"
+                                    aria-controls="pills-certification" aria-selected="false">Certification & Courses
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-experience-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-experience" type="button" role="tab"
+                                    aria-controls="pills-experience" aria-selected="false">Experience</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-education-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-education" type="button" role="tab"
+                                    aria-controls="pills-education" aria-selected="false">Education</button>
+                            </li>
+
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-skill" role="tabpanel"
+                                aria-labelledby="pills-skill-tab">
+                                <div class="single-progress">
+                                    <h6>HTML</h6>
+                                    <div class="progress" role="progressbar" aria-label="Basic example"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 100%"></div>
+                                    </div>
+                                    <span class="label">100%</span>
+
+                                </div>
+
+                                <div class="single-progress">
+                                    <h6>CSS</h6>
+                                    <div class="progress" role="progressbar" aria-label="Basic example"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 90%"></div>
+                                    </div>
+                                    <span class="label">90%</span>
+
+                                </div>
+                                <div class="single-progress">
+                                    <h6>JavaScript</h6>
+                                    <div class="progress" role="progressbar" aria-label="Basic example"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 25%"></div>
+                                    </div>
+                                    <span class="label">25%</span>
+
+                                </div>
+                                <div class="single-progress">
+                                    <h6>C++</h6>
+                                    <div class="progress" role="progressbar" aria-label="Basic example"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 50%"></div>
+                                    </div>
+                                    <span class="label">50%</span>
+
+                                </div>
+                                <div class="single-progress">
+                                    <h6>DSA</h6>
+                                    <div class="progress" role="progressbar" aria-label="Basic example"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar" style="width: 50%"></div>
+                                    </div>
+                                    <span class="label">40%</span>
+
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-certification" role="tabpanel"
+                                aria-labelledby="pills-certification-tab">
+                                <ul class="text-start ps-0">
+                                    <li> <a href="#">CSS & JavaScript Crash Course</a></li>
+                                    <li> <a href="#"> Responsive Website using HTML, CSS, JS & Bootstrap</a></li>
+                                    <li> <a href="#">Python Fundamentals</a></li>
+                                    <li> <a href="#">Generic Online Training in Cyber Security
+                                            HTML</a></li>
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="pills-experience" role="tabpanel"
+                                aria-labelledby="pills-experience-tab"></div>
+
+                            <div class="tab-pane fade" id="pills-education" role="tabpanel"
+                                aria-labelledby="pills-education-tab">
+                                <ul class="text-start ps-0">
+                                    <li> <a href="#">SSC<span> - Shriram Vidyalaya, Kada</span></a>Year: 2019 Marks:
+                                        82.40%</li>
+                                    <li> <a href="#">HSC - <span> Science, Commerce & Arts College,
+                                                Dhanora</span></a>Year: 2021 Marks: 90%</li>
+                                    <li> <a href="#">Computer Engineering - <span> PVPIT, Pune</span></a>FE Marks: 9.41
+                                        CGPA</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sevices Section -->
+    <section id="services" class="services_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-4">
+                    <span class="subtitle">
+                        What I can do for you..?
+                    </span>
+                    <h2>My Awesome Services</h2>
+                    <p>There are some Sevices.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="./images/services/service-2.svg" alt="service" class="img-fluid mb-4">
+                            <h3>Wev-Development</h3>
+                            <p>Web-development is the building and maintenace of websites.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="./images/services/service-2.svg" alt="service" class="img-fluid mb-4">
+                            <h3>Typing 40WPM</h3>
+                            <p>Perfect in English Typing 40WPM. Certification of 30WPM & 40WPM from GCC-TBC.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-4">
+                    <span class="subtitle">My Complete Projects</span>
+                    <h2>My Latest Projects</h2>
+                    <p>There are some <br class="d-none">Web-development projects done by me.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-0">
+                        <span style="background-image:url('./images/portfolio/Portfolio-Webpage-Sachin-Barvekar.png')"></span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-0">
+                        <span style="background-image:url('./images/portfolio/Responsive-Ecommerce-Website-Sneakers.png')"></span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-0">
+                        <span
+                            style="background-image:url('./images/portfolio/flipkart_clone.png')"></span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-0">
+                        <span style="background-image:url('./images/portfolio/eCommerce-Website.png')"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact_wrapper">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-6 order-2 order-lg-1 pe-lg-5 text-lg-start text-center">
+                    <span class="subtitle">My Complete Projects</span>
+                    <h2>Hire Me</h2>
+                    <div class="row call_details mb-4">
+                        <label class="col-sm-3 col-lg-4">Contact No: </label>
+
+                        <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+                            <a href="javascript:void(0)">7588526911</a>
+                        </div>
+                        <label class="col-sm-3 col-lg-4">Contact Email:</label>
+                        <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+                            <a href="sachinbarvekar2003@gmail.com">sachinbarvekar2003@gmail.com</a>
+                        </div>
+                    </div>
+                    <form>
+                        <div class="mb-4">
+                            <input type="text" class="form-control" placeholder="Your Name..." autocomplete="off">
+                        </div>
+                        <div class="mb-4">
+                            <input type="number" class="form-control" placeholder="Your Mobile No..."
+                                autocomplete="off">
+                        </div>
+                        <div class="mb-4">
+                            <input type="email" class="form-control" placeholder="Your Email..." autocomplete="off">
+                        </div>
+                        <div class="mb-4">
+                            <textarea cols="40" rows="4" class="form-control" id="message"
+                                placeholder="Write a Message..." autocomplete="off"></textarea>
+                        </div>
+                        <button type="submit" class="main-btn">Submit</button>
+                    </form>
+                </div>
+                <div class="col-lg-6 order-1 mb-4 order-lg-1 mb-lg-0">
+                    <img src="./images/img.jpg" class="img-fluid rounded-3">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <section id="contact" class="footer_wrapper mt-3 mt-md-0">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-md-6 text-center text-md-start">
+                    <div class="footer-logo mb-3 mb-md-0">
+                        <img src="images/logo.png" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <ul
+                        class="list-unstyled d-flex justify-content-center justify-content-md-end justify-content-lg-center social-icon mb-3 mb-md-0">
+                        <li>
+                            <a href="https://www.linkedin.com/in/sachin-barvekar-2874481a2" target="_blank"><i
+                                    class="fa-brands fa-linkedin"></i> </a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com/_sachin_barvekar_?igshid=ZDdkNTZiNTM=" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i> </a>
+                        </li>
+                        <li>
+                            <a href="7588526911" target="_blank"><i class="fa-solid fa-phone"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="copyright-text text-lg-start text-center mb-3 mb-lg-0">
+                        <p class="mb-0">Copyright &copy; 2023 <a href="#">sachin_barvekar..</a>All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!-- Custom js file -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
